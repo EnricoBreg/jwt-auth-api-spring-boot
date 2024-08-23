@@ -1,6 +1,6 @@
-package com.terricabrel.auth_api.repositories;
+package com.terricabrel.authapi.repositories;
 
-import com.terricabrel.auth_api.entities.User;
+import com.terricabrel.authapi.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

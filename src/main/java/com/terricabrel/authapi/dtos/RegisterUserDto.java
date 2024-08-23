@@ -1,4 +1,4 @@
-package com.terricabrel.auth_api.dtos;
+package com.terricabrel.authapi.dtos;
 
 public class RegisterUserDto {
 

@@ -1,6 +1,6 @@
-package com.terricabrel.auth_api.config;
+package com.terricabrel.authapi.config;
 
-import com.terricabrel.auth_api.repositories.UserRepository;
+import com.terricabrel.authapi.repositories.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

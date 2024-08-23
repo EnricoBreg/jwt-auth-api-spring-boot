@@ -1,4 +1,4 @@
-package com.terricabrel.auth_api.config;
+package com.terricabrel.authapi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

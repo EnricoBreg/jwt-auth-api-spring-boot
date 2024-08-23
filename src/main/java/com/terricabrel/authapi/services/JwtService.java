@@ -1,4 +1,4 @@
-package com.terricabrel.auth_api.services;
+package com.terricabrel.authapi.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

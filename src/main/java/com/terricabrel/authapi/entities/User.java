@@ -1,4 +1,4 @@
-package com.terricabrel.auth_api.entities;
+package com.terricabrel.authapi.entities;
 
 
 import jakarta.persistence.*;

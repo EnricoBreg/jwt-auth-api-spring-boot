@@ -1,6 +1,6 @@
-package com.terricabrel.auth_api.config;
+package com.terricabrel.authapi.config;
 
-import com.terricabrel.auth_api.services.JwtService;
+import com.terricabrel.authapi.services.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

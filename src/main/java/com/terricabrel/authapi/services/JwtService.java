@@ -40,7 +40,7 @@ public class JwtService {
         return buildToken(extraClaims, userDetails, getExpirationTime());
     }
 
-    private Long getExpirationTime() {
+    public Long getExpirationTime() {
         return jwtExpiration;
     }
 

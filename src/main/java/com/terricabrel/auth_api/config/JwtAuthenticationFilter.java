@@ -31,6 +31,17 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         this.userDetailsService = userDetailsService;
     }
 
+    /**
+     * Se il token non è valido la richiesta viene rigettata oppure si continua con l'esecuzione.
+     * Se il token è valido allora, il metodo provvede ad estrarre loo username, trovare il relativo utente nel DB
+     * ed inserirlo nel authentication context in modo che sia accessibile a livello di tutta l'applicazione.
+     *
+     * @param request
+     * @param response
+     * @param filterChain
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         final String authHeader = request.getHeader("Authorization");

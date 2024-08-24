@@ -76,6 +76,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         } catch (Exception e) {
             /*
              * A try-catch block wraps the logic and uses the HandlerExceptionResolver to forward the error to the global exception handler.
+             * L'eccezione viene inviata all'handler delle eccezioni che si occupa di eseguire le dovute azioni.
              */
             handlerExceptionResolver.resolveException(request, response, null, e);
         }
